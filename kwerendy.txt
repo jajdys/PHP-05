@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT * FROM kursy;
+Zapytanie 2: SELECT * FROM kursy WHERE id_waluta = '2';
+Zapytanie 3: SELECT * FROM kursy WHERE data = '2018-08-19';
+Zapytanie 4: SELECT data, MAX(skup) FROM kursy WHERE id_waluta = '3';
